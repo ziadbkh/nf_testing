@@ -3,10 +3,7 @@ nextflow.enable.dsl=2
 
 process sayHello {
 
-  publishDir = [
-        path: { "${params.outdir}/${task.process.tokenize(':')[-1].tokenize('_')[0].toLowerCase()}" },
-        mode: "copy"
-    ]
+  
 
   input: 
     val x
