@@ -8,8 +8,8 @@ process sayHello {
   input: 
     val x
   output:
-    val "ziad_report1", emit: no_ext
-    val "ziad_report2.txt", emit: with_ext
+    path "ziad_report1", emit: no_ext
+    path "ziad_report2.txt", emit: with_ext
 
   script:
     """
