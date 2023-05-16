@@ -1,0 +1,31 @@
+reports:
+  ziad_report1:
+    display: "Ziad report 1"
+    mimeType: "txt"
+  ziad_report2.txt:
+    display: "Ziad  report 2"
+    mimeType: "txt"
+  ziad_report1:
+    display: "Ziad report 3"
+  ziad_report2.txt:
+    display: "Ziad  report 4"
+  "**/ziad_report1":
+    display: "Ziad report 5"
+    mimeType: "txt"
+  "**/ziad_report2.txt":
+    display: "Ziad  report 6"
+    mimeType: "txt"
+  "*/ziad_report1":
+    display: "Ziad report 7"
+    mimeType: "txt"
+  "*/ziad_report2.txt":
+    display: "Ziad  report 8"
+    mimeType: "txt"
+  sayhello/ziad_report1:
+    display: "Ziad report 9"
+    mimeType: "txt"
+  sayhello/ziad_report2.txt:
+    display: "Ziad  report 10"
+    mimeType: "txt"
+  
+  
